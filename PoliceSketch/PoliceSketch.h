@@ -11,9 +11,13 @@
 
 @interface PoliceSketch : NSObject
 
+//to help keep track of which image im on now. so can ++ to increment to next image
+
 @property (assign) int currentEyes;
 @property (assign) int currentNose;
 @property (assign) int currentMouth;
+
+//made Array's properties because not sure what class methods are yet.. so just going back to what I know for now..
 
 @property (nonatomic, strong) NSArray *listOfEyes;
 @property (nonatomic, strong) NSArray *listOfNoses;
